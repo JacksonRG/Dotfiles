@@ -1,0 +1,18 @@
+--------------------
+USED AND FREE MEMORY
+--------------------
+df
+	-h human readable
+
+--------------------
+TERMINAL SIZE
+--------------------
+stty size
+
+tput cols
+tput lines
+
+echo $LINES
+echo $COLUMNS
+
+
