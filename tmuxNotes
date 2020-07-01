@@ -1,0 +1,5 @@
+<prefix> $
+	rename session
+
+<prefix> ,
+	Rename Window
