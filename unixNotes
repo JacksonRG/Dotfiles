@@ -15,4 +15,26 @@ tput lines
 echo $LINES
 echo $COLUMNS
 
+--------------------
+JOB CONTROLL
+--------------------
+jobs
+	#show runing processes, and job id
+ps ft
+	#show processes run from this terminal
+	#with a tree diagram of parentage
 
+	BASH:
+		#just 
+		fg [jobID]
+		#OR
+		%[jobID]
+		#OR
+		%[jobNAME]
+	FISH:
+		fg [name]
+		#tab completes to the PID
+
+		#no '%[ID] or %[name]'
+		#to quckly fg a process like bash
+		#could be done with fish customizations
