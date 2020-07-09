@@ -1,6 +1,7 @@
 "Default leader: '\'
 :let mapleader = ','
 :set hlsearch
+:set incsearch
 :set tabstop=4
 :set shiftwidth=4
 :set number relativenumber
