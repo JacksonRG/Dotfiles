@@ -38,3 +38,18 @@ ps ft
 		#no '%[ID] or %[name]'
 		#to quckly fg a process like bash
 		#could be done with fish customizations
+
+--------------------
+WORD COUNT
+--------------------
+sed 's/\s/\n/g' < <FILE NAME> | sort | uniq -c | sort -n
+	give each word a new line,
+	sort them,
+	count them
+	sort numerically
+	
+	add -r to reverse sort order
+	OR '| tac' which is cat but reverse
+	pair with head to get top of the list
+
+

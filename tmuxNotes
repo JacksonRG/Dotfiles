@@ -3,3 +3,7 @@
 
 <prefix> ,
 	Rename Window
+
+<prefix> =
+	##AFTER COPYING SOMETHING
+	list buffers, enter on one to print it
