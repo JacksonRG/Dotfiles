@@ -1,0 +1,9 @@
+xrandr -o normal
+orientation normal
+
+**THIS STOPS THE ORIENTATION SENSOR**
+sudo systemctl stop iio-sensor-proxy.service
+sudo systemctl disable iio-sensor-proxy.service
+
+**THIS REMOVES THE ORIENTATION SENSOR**
+sudo apt-get remove iio-sensor-proxy

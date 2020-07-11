@@ -1,0 +1,2 @@
+pdftoppm -png -rx 300 -ry 300 FILE_NAME.pdf FILE_NAME.png
+#Takes a pdf and creates 300 dpi png of it.

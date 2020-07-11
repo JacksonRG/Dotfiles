@@ -1,0 +1,17 @@
+%FORMATTING
+\documentclass[12pt]{article}
+\usepackage[backend=biber, bibencoding=utf8, style=chicago-authordate]{biblatex}
+\addbibresource{sources.bib}
+\usepackage{indentfirst}
+\linespread{2}
+\usepackage[a4paper, margin=1in]{geometry}
+\title{title}
+\aurthor{author}
+\date{\today}
+
+%CITING
+\cite{source}
+\footcite{source}
+
+%BIBLIOGRAPHY
+\printbibliography

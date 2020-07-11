@@ -1,0 +1,8 @@
+cal
+	display calendar
+
+curl wttr.in
+	show weather for three days
+
+curl cheat.sh
+	helpful tips on programming and cli tools

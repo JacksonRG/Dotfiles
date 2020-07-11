@@ -1,0 +1,12 @@
+follow this 
+	git checkout -f 
+with a commit hash or a branch name. Current directory will be
+overriden with the contents of that commit
+(if its a past commit this may be a detatched state)
+(good for looking at old code)
+
+revert state of branch
+	git checkout -- .
+OR revert specific file
+	git checkout -- file/path
+
