@@ -15,8 +15,11 @@ hi Normal guibg=NONE ctermbg=NONE
 :map <Leader><Space> :let @/ = ""<CR>
 
 "SPLIT NAVIGATION
+set splitright
+set splitbelow
 :map <C-h> <C-w>h
 :map <C-j> <C-w>j
 :map <C-k> <C-w>k
 :map <C-l> <C-w>l
+"Ctrl-q to close a split
 :map <C-q> <C-w>q
