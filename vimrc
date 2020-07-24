@@ -5,7 +5,6 @@
 :set tabstop=4
 :set shiftwidth=4
 :set number relativenumber
-:color industry
 :set autoindent
 :set formatoptions=cro
 :set mouse="a"
@@ -20,6 +19,9 @@ set splitbelow
 :map <C-h> <C-w>h
 :map <C-j> <C-w>j
 :map <C-k> <C-w>k
-:map <C-l> <C-w>l
+:inoremap <C-l> <C-w>l
 "Ctrl-q to close a split
 :map <C-q> <C-w>q
+
+:color industry
+let g:netrw_browse_split = 3
