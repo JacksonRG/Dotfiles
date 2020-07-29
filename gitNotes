@@ -1,0 +1,8 @@
+git clean -n
+	dry run of git clean. Shows what will be cleaned
+
+	clean gets rid of untracked changes
+
+git config --global core.excludesfile $HOME/.gitignore
+	or wherever you want to put it. maybe ~/.config/git/exclude
+	so you dont have to keep adding *.swp everywhere
