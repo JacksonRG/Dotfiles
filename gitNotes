@@ -6,3 +6,6 @@ git clean -n
 git config --global core.excludesfile $HOME/.gitignore
 	or wherever you want to put it. maybe ~/.config/git/exclude
 	so you dont have to keep adding *.swp everywhere
+
+git reset -- <path>
+	resets to last change the file at path

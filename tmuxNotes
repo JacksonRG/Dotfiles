@@ -10,3 +10,6 @@
 <prefix> =
 	##AFTER COPYING SOMETHING
 	list buffers, enter on one to print it
+
+<prefix> w
+	list panes in a tree to switch between

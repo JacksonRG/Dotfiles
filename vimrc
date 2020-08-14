@@ -23,5 +23,6 @@ set splitbelow
 "Ctrl-q to close a split
 :map <C-q> <C-w>q
 
-:color industry
+":color industry
+:color evening
 let g:netrw_browse_split = 3
