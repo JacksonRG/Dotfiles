@@ -1,5 +1,7 @@
 #put these in ~/.config/fish/config.fish
 #ITS LINKED
+set EDITOR "vim"
+
 set PATH "$PATH $HOME/.cargo/bin"
 
 alias gs='git status'
