@@ -52,4 +52,13 @@ sed 's/\s/\n/g' < <FILE NAME> | sort | uniq -c | sort -n
 	OR '| tac' which is cat but reverse
 	pair with head to get top of the list
 
+--------------------
+Substitution
+--------------------
+tr ',' '\n'
+	makes large comma separated files easy to read
+	SAME AS
+	sed 's/,/\n/g'
+
+
 

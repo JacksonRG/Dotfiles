@@ -9,3 +9,7 @@ git config --global core.excludesfile $HOME/.gitignore
 
 git reset -- <path>
 	resets to last change the file at path
+
+git restore --staged <path>
+	unstages all changes at <path>
+	use . for <path> to unstage everything
