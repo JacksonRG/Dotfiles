@@ -13,3 +13,5 @@ git reset -- <path>
 git restore --staged <path>
 	unstages all changes at <path>
 	use . for <path> to unstage everything
+
+git checkout <COMMIT#> <path/to/file>

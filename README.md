@@ -1,2 +1,2 @@
 # Dotfiles
-Like many others, I'd like my .bashrc, .vimrc, and various other configs easilly available.
+Like many others, I like my .bashrc, .vimrc, and various other configs just a git pull away.
