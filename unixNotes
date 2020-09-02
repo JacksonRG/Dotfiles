@@ -53,3 +53,15 @@ sed 's/\s/\n/g' < <FILE NAME> | sort | uniq -c | sort -n
 	pair with head to get top of the list
 
 
+--------------------
+EDITOR FOR LONG
+COMMANDS
+--------------------
+
+open currently typing commnd in an editor
+
+BASH:
+ctrl-x ctrl-e
+
+FISH:
+alt-e
