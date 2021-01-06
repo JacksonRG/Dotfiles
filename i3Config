@@ -390,7 +390,7 @@ default_floating_border pixel $i3-wm.floatingwindow.border.size
 set_from_resource $i3-wm.gaps.inner.size i3-wm.gaps.inner.size 5
 set_from_resource $i3-wm.gaps.outer.size i3-wm.gaps.outer.size 0
 #gaps inner $i3-wm.gaps.inner.size
-gaps inner 30
+gaps inner 15
 gaps outer $i3-wm.gaps.outer.size
 
 # Only enable gaps on a workspace when there is at least one container
@@ -531,3 +531,7 @@ set_from_resource $i3-wm.program.2 i3-wm.program.2 :
 exec --no-startup-id $i3-wm.program.2
 set_from_resource $i3-wm.program.3 i3-wm.program.3 :
 exec --no-startup-id $i3-wm.program.3
+
+#WORKSPACE CONFIG
+#assign [class="Spotify"] $ws9
+for_window [class="Spotify"] move to workspace $ws9

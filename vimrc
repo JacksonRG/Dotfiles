@@ -4,6 +4,7 @@
 :set incsearch
 :set tabstop=4
 :set shiftwidth=4
+:set colorcolumn=80
 :set number relativenumber
 :set autoindent
 :set formatoptions=cro
@@ -11,6 +12,7 @@
 hi Normal guibg=NONE ctermbg=NONE
 ":map <Leader><Space> :set hlsearch!<CR>
 :map <Leader>h :set hlsearch!<CR>
+:map <Leader>t :%s/\t/    /g<CR>"replaces tabs with spaces
 :map <Leader><Space> :let @/ = ""<CR>
 
 "SPLIT NAVIGATION
