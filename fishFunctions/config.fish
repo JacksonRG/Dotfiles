@@ -14,5 +14,5 @@ alias gl="git log --all --graph --decorate --oneline"
 
 alias py="python3"
 
-alias there="test -f $HOME/bin/dir.txt && cd (cat $HOME/bin/dir.txt)\
+alias there="test -f $HOME/bin/here.txt && cd (cat $HOME/bin/here.txt)\
 || echo 'First set a directory with here command'"

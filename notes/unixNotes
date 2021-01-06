@@ -62,3 +62,15 @@ tr ',' '\n'
 
 
 
+--------------------
+EDITOR FOR LONG
+COMMANDS
+--------------------
+
+open currently typing commnd in an editor
+
+BASH:
+ctrl-x ctrl-e
+
+FISH:
+alt-e

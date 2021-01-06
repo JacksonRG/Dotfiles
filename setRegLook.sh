@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Not FOR DARKS: ayu-dark
+#NOT GOOD DARKS: ayu-dark
 #FAVE FOR DARKS:
 #gruvbox [low contrast]
 #lascaille 
@@ -13,3 +13,4 @@ rm $HOME/.Xresources-regolith
 regolith-look set ${1}
 #echo "regolith-look refresh"
 regolith-look refresh
+
