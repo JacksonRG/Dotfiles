@@ -1,0 +1,2 @@
+#!/bin/fish
+cat $HOME/bin/here.txt || echo "no 'here' set"

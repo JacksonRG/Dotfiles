@@ -4,6 +4,8 @@ set EDITOR "vim"
 
 set PATH "$PATH $HOME/.cargo/bin"
 
+set PATH "$PATH $HOME/bin"
+
 alias gs='git status'
 
 alias dater="date +%R"
@@ -11,3 +13,6 @@ alias dater="date +%R"
 alias gl="git log --all --graph --decorate --oneline"
 
 alias py="python3"
+
+alias there="test -f $HOME/bin/dir.txt && cd (cat $HOME/bin/dir.txt)\
+|| echo 'First set a directory with here command'"

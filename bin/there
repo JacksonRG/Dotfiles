@@ -1,0 +1,6 @@
+#!/bin/sh
+test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt` || echo "No Where Set"
+
+#test -f $HOME/bin/here.txt &&\
+#cd (cat $HOME/bin/here.txt) ||\
+#echo "Please specify a directory with the 'here' command"
