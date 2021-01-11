@@ -24,3 +24,9 @@ done
 # AND FOR FISH,
 # LINK 
 # ~/.config/fish/config.fish to config.fish
+
+# FOR CUSTOM SCRIPTS
+# LINK
+# ln -s Dotfiles/bin ~/bin
+#
+# and add ~/bin to path

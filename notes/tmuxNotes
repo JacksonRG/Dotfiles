@@ -13,3 +13,21 @@
 
 <prefix> w
 	list panes in a tree to switch between
+
+<prefix> m
+	marks a pane.
+	marked pane will be used by other commands.
+
+:joinp
+	alias for join-pane
+	if no pane specified, swaps with marked pane
+
+:swapp
+	alias for swap-pane
+	swaps current pane for specified one
+	if none specified, swaps with marked pane
+
+:breakp
+	breaks current pane
+	into its own window
+
