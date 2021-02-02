@@ -12,7 +12,9 @@
 hi Normal guibg=NONE ctermbg=NONE
 ":map <Leader><Space> :set hlsearch!<CR>
 :map <Leader>h :set hlsearch!<CR>
-:map <Leader>t :%s/\t/    /g<CR>"replaces tabs with spaces
+"replaces tabs with spaces
+:map <Leader>t :%s/\t/    /g<CR>
+:map <Leader>T :%s/    /\t/g<CR>
 :map <Leader><Space> :let @/ = ""<CR>
 
 "SPLIT NAVIGATION

@@ -74,3 +74,11 @@ ctrl-x ctrl-e
 
 FISH:
 alt-e
+
+--------------------
+TTY SIZE
+--------------------
+dpkg-reconfigure console-setup
+	Use this to change
+	font size and stuff from tty
+	

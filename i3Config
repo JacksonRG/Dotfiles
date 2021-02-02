@@ -366,8 +366,8 @@ mode "Resize Mode" {
         ## Resize // Window Gaps // + - ##
         bindsym minus gaps inner current minus 6
         bindsym plus gaps inner current plus 6
-        bindsym Shift+minus gaps inner current minus 12
-        bindsym Shift+plus gaps inner current plus 12
+        bindsym Shift+minus gaps inner all minus 6
+        bindsym Shift+plus gaps inner all plus 6
 
         ## Resize // Exit Resize Mode // Escape or Enter ## 
         bindsym Return mode "default"
@@ -390,7 +390,7 @@ default_floating_border pixel $i3-wm.floatingwindow.border.size
 set_from_resource $i3-wm.gaps.inner.size i3-wm.gaps.inner.size 5
 set_from_resource $i3-wm.gaps.outer.size i3-wm.gaps.outer.size 0
 #gaps inner $i3-wm.gaps.inner.size
-gaps inner 15
+gaps inner 0
 gaps outer $i3-wm.gaps.outer.size
 
 # Only enable gaps on a workspace when there is at least one container
