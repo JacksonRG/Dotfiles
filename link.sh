@@ -30,3 +30,7 @@ done
 # ln -s Dotfiles/bin ~/bin
 #
 # and add ~/bin to path
+#
+# FOR VS_CODE KEYBINDINGS
+#
+# ln -s Dotfiles/vsCode_keybindings.json ~/.config/Code/User/keybindings.json

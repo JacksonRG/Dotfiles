@@ -1,0 +1,13 @@
+ctrl-j hides and shows the terminal window.
+
+ctrl-p opens palette
+
+use ctrl-p to access other shortucts even in vim mode.
+
+so changing colorscheme, or navigating to terminal window
+just prefix shortcut with ctrl-p
+
+ALSO use this to go zen mode ! 'ctrl-k z' doesnt work without palette
+prefix
+
+set ctrl - p 'when' clause to '!terminalFocus'
