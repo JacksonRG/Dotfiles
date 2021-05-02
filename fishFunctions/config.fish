@@ -14,5 +14,10 @@ alias gl="git log --all --graph --decorate --oneline"
 
 alias py="python3"
 
+#Search a file and open in vim
+alias fim="vim (fzf --height 40% --preview 'cat {}')"
+
+alias fzf="fzf --height 40% --preview 'cat{}'"
+
 alias there="test -f $HOME/bin/here.txt && cd (cat $HOME/bin/here.txt)\
 || echo 'First set a directory with here command'"
