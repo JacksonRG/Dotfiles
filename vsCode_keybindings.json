@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+p",
+        "key": "ctrl+o",
         "command": "workbench.action.quickOpen",
         "when": "!terminalFocus"
     },
@@ -37,5 +37,9 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile"
     }
 ]

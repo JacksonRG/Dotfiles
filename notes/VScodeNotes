@@ -11,3 +11,8 @@ ALSO use this to go zen mode ! 'ctrl-k z' doesnt work without palette
 prefix
 
 set ctrl - p 'when' clause to '!terminalFocus'
+
+#UNITY AUTOCOMPLETE
+Set omnisharp.path to latest
+
+and omnisharp.useGlobalMono to always
