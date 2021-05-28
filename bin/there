@@ -1,5 +1,5 @@
 #!/bin/sh
-test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt` || echo "No Where Set"
+test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt` || echo "No 'here' Set"
 
 #test -f $HOME/bin/here.txt &&\
 #cd (cat $HOME/bin/here.txt) ||\
