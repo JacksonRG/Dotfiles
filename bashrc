@@ -111,4 +111,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-PS1='\w\n> '
+#PS1='\w\n> '
+#PS1='\w `git symbolic-ref --short HEAD 2>/dev/null\ `\n> '
+
+parse_git_branch() {
+	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+#export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\]\n> "
+export PS1="\[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\]\n> "

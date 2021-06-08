@@ -21,3 +21,8 @@ alias fzf="fzf --height 40% --preview 'cat {}'"
 
 alias there="test -f $HOME/bin/here.txt && cd (cat $HOME/bin/here.txt)\
 || echo 'First set a directory with here command'"
+
+alias difzf='git diff --name-only | fzf --height=100% --preview \'git diff --minimal --word-diff --color {}\''
+#git diff develop --name-only | fzf --preview 'git diff develop --color {}'
+alias difdev='git diff develop --name-only | fzf --height=100% --preview \'git diff develop --color {}\''
+
