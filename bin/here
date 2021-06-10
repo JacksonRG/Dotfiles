@@ -1,2 +1,2 @@
 #!/usr/bin/sh
-echo `pwd` > $HOME/bin/here.txt
+echo `pwd` > $HOME/.here.txt

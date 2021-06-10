@@ -15,8 +15,8 @@ alias py="python3"
 
 
 #MOVEMENT
-alias there="test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt`\
-|| echo 'First set a directory with here command'"
+alias there='test -f $HOME/.here.txt && cd `cat $HOME/.here.txt`\
+|| echo "First set a directory with here command"'
 
 fd() {
 	preview="git diff $@ --color=always -- {-1}";
