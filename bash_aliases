@@ -15,7 +15,7 @@ alias py="python3"
 
 
 #MOVEMENT
-alias there="test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt`\
+alias there="test -f $HOME/bin/here.txt && cd \`where\`\
 || echo 'First set a directory with here command'"
 
 fd() {

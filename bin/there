@@ -1,6 +1,10 @@
 #!/bin/sh
-test -f $HOME/bin/here.txt && cd `cat $HOME/bin/here.txt` || echo "No 'here' Set"
+test -f $HOME/bin/here.txt && cd $(cat $HOME/bin/here.txt) || echo "No 'here' Set"
 
 #test -f $HOME/bin/here.txt &&\
 #cd (cat $HOME/bin/here.txt) ||\
 #echo "Please specify a directory with the 'here' command"
+
+#ERROR:
+# the here.txt gets read at startup, so it only works if you set 'here'
+# before you open the next terminal;

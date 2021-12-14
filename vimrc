@@ -2,6 +2,7 @@
 :let mapleader = ','
 :set hlsearch
 :set incsearch
+:set expandtab
 :set tabstop=4
 :set shiftwidth=4
 :set colorcolumn=80
@@ -14,6 +15,7 @@ hi Normal guibg=NONE ctermbg=NONE
 :map <Leader>h :set hlsearch!<CR>
 "replaces tabs with spaces
 :map <Leader>t :%s/\t/    /g<CR>
+"replaces spaces with tabs
 :map <Leader>T :%s/    /\t/g<CR>
 :map <Leader><Space> :let @/ = ""<CR>
 

@@ -31,11 +31,6 @@
     },
     {
         "key": "ctrl+e",
-        "command": "workbench.action.quickOpen",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
     },
     {
@@ -43,7 +38,20 @@
         "command": "-workbench.action.files.openFile"
     },
     {
-        "key": "ctrl+shift+`",
+        "key": "ctrl+shift+j",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
     }
 ]
