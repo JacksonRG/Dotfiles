@@ -11,6 +11,8 @@ alias gs='git status'
 
 alias gl="git log --all --graph --decorate --oneline"
 
+alias gb="git branch"
+
 alias py="python3"
 
 

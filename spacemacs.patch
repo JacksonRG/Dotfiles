@@ -1,0 +1,63 @@
+diff --git a/core/core-themes-support.el b/core/core-themes-support.el
+index 77e134fed..482b9f35a 100644
+--- a/core/core-themes-support.el
++++ b/core/core-themes-support.el
+@@ -24,7 +24,7 @@
+ (defconst emacs-built-in-themes (cons 'default (custom-available-themes))
+   "List of emacs built-in themes")
+ 
+-(defvar spacemacs--fallback-theme 'spacemacs-dark
++(defvar spacemacs--fallback-theme 'tango-dark
+   "Fallback theme if user theme cannot be applied.")
+ 
+ (defvar spacemacs--delayed-user-theme nil
+diff --git a/init.el b/init.el
+index 7f2526cb6..339c19b7a 100644
+--- a/init.el
++++ b/init.el
+@@ -20,7 +20,6 @@
+ ;; You should have received a copy of the GNU General Public License
+ ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+-
+ ;; Without this comment emacs25 adds (package-initialize) here
+ ;; (package-initialize)
+ 
+@@ -71,3 +70,37 @@
+       (unless (server-running-p)
+         (message "Starting a server...")
+         (server-start)))))
++
++;; Set starting theme
++(global-visual-line-mode t)
++(setq global-hl-line-mode nil)
++(disable-theme 'spacemacs-dark)
++(load-theme 'misterioso t)
++
++;; Open vue files in web-mode
++(add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
++(add-to-list 'auto-mode-alist '("\\.js\\'" . js-mode))
++
++;; rename symbol shortcut
++;; (define-key map (kbd "SPC r n") 'symbol-overlay-rename)
++(global-set-key (kbd "C-x r n") 'symbol-overlay-rename)
++;; (toggle-indent-guide-on)
++;; (setq indent-guide t)
++
++;; (setq display-line-numbers 'relative)
++;; (add-hook 'prog-mode-hook 'display-line-numbers-mode)
++(add-hook 'prog-mode-hook 'indent-guide-global-mode)
++(add-hook 'prog-mode-hook 'spacemacs/toggle-relative-line-numbers)
++(add-hook 'prog-mode-hook 'menu-bar-mode)
++
++
++;;(add-hook 'term-mode-hook (local-set-key (kbd "f") nil))
++
++;; (require 'package)
++;; (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages") t)
++;; (package-initialize)
++;; M-x package-refresh-contents RET
++;; M-x package-install RET realgud RET
++
++
++

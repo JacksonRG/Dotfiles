@@ -1,0 +1,22 @@
+/* #TabsToolbar { */
+/*     visibility: collapse !important; */
+/*     position: absolute; */
+/* } */
+/* #navigator-toolbox:hover #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+/* #navigator-toolbox:focus-c #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+
+/* #navigator-toolbox { */
+/*         visibility: collapse !important; */
+/*         position: absolute; */
+/* } */
+/* #main-window:hover #navigator-toolbox { */
+/*     max-height: 100vh; */
+/*     animation: 0s pop-in; */
+/*     animation-fill-mode: both; */
+/*     animation-delay: 5s; */
+/* } */
+

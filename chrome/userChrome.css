@@ -1,0 +1,64 @@
+/* #TabsToolbar { */
+/*     visibility: collapse !important; */
+/*     position: absolute; */
+/* } */
+
+/* Hover to show tabs */
+/* #navigator-toolbox:hover #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+
+/* #navigator-toolbox { */
+/*     max-height: 0; */
+/*     overflow: hidden; */
+/*     transition: ease all 2s; */
+/* } */
+
+/* #navigator-toolbox:hover #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+
+/* #main-window:hover #navigator-toolbox { */
+/*     max-height: 100vh; */
+/*     animation: 0s pop-in; */
+/*     animation-fill-mode: both; */
+/*     animation-delay: 5s; */
+/* } */
+
+/* #TabsToolbar:focus { */
+/*     visibility: visible !important; */
+/* } */
+
+/* @keyframes pop-in { */
+/*     from {overflow: hidden} */
+/*     to {overflow: unset} */
+/* } */
+
+
+/* V2 */
+/* #navigator-toolbox:hover #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+
+/* #navigator-toolbox:hover #TabsToolbar { */
+/*     visibility: visible !important; */
+/* } */
+/* #TabsToolbar { */
+/*     visibility: collapse !important; */
+/*     position: absolute; */
+/* } */
+
+/* V3 */
+/* #nav-bar { */
+/*     z-index: -1; */
+/* } */
+/* #navigator-toolbox:hover #nav-bar{ */
+/*     z-index: 1; */
+/* } */
+
+/* @import url("chromes/topHide.css") */
+/* @import url("chromes/nav.css") */
+/* @import url("chromes/navbar-show-focus-only.css") */
+/* @import url("chromes/tabs_fill_width.css") */
+@import url("chromes/nav_oneline.css")
+/* @import url("chromes/numbered_tabs.css") */
